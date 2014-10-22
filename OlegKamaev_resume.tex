@@ -1,0 +1,135 @@
+\documentclass[overlapped, line, 10pt]{res}
+%\documentclass[letterpaper, centered, 10pt]{res}
+
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{hyperref}
+\else
+  \usepackage[hypertex]{hyperref}
+\fi
+
+\addtolength{\textheight}{1 cm} \addtolength{\voffset}{-0.5 cm}
+
+\begin{document}
+
+\renewcommand{\namefont}{\Large\textbf}
+
+\name{Oleg Kamaev}
+
+\begin{resume}
+
+\hspace*{-\sectionwidth}E-mail:  oleg.v.kamaev@gmail.com \hfill Ontario, Canada\\
+\hspace*{-\sectionwidth}Phone: (613) 985-9496\\
+\hspace*{-\sectionwidth}\url{https://github.com/olegkamaev}
+
+%---------------------------------------------------------------------------
+\section{\sc Summary of Qualifications}
+\setlength{\leftmargini}{1 em}
+\begin{itemize}
+\item Over 5 years of experience in quantitative data analysis, mathematical modeling of physical processes, numerical programming.
+\item Solid academic background in Physics, Applied Mathematics, Statistical Analysis.
+\item Author and co-author of over 20 publications in peer-reviewed journals and proceedings of national and international conferences. 
+\item A quick learner who can communicate clearly and effectively. 
+\item Highly energetic and result-oriented with strong analytical and problem-solving skills.
+\end{itemize}
+\textbf{Areas of Expertise:}\\
+\begin{tabular}{p{5cm} p{5cm} p{5cm}}
+- data mining & - statistical inference  & - algorithms design \\
+- machine learning & - relational databases & - software development \\
+- predictive analytics & - Monte Carlo simulations & - technical writing
+\end{tabular}
+
+\textbf{Technical Skills:}
+\begin{itemize}
+\item Programming languages: MATLAB, Python, Fortran
+\item Relational databases: MySQL, MS Access
+\item Version control systems: CVS, Git
+\item UNIX environments: Linux, Mac OS
+\item Statistical techniques: regression, MLE, nonlinear optimization, pattern search, principal component analysis, neural networks
+\item Application software: MS Excel, VBA macros, MS PowerPoint, Origin, LaTeX, Emacs, HTML
+\end{itemize}
+
+\section{\sc Experience}
+\begin{format}
+\title{l} \dates{r} \\
+\body
+\end{format}
+
+\title{Research Fellow / Lecturer}
+\dates{2011 -- 2014}
+\begin{position}
+Queen's University, Kingston, Canada
+\begin{itemize}
+\item[--] Processed, cleaned, and analyzed (MATLAB, Python) large datasets collected by a world-leading experiment to search for dark matter and other rare events. 
+\item[--] Fitted physical models to experimental data for event classification; applied regression and unconstrained nonlinear optimization. Utilized maximum likelihood analysis to test signal hypothesis against background model.
+\item[--] Effectively communicated results at leading national/international conferences (see, e.g., a talk that I gave at 2013 Canadian Association of Physicists Congress: \url{http://tinyurl.com/oov4ha4}).
+\item[--]Mentored several M.Sc.~and undergraduate research students on data analysis including MATLAB programming and statistical techniques.
+\end{itemize}
+\end{position}
+
+\title{Research Associate}
+\dates{2008 -- 2010}
+\begin{position}
+University of Minnesota, Minneapolis, USA\\
+Cryogenic Dark Matter Search experiment:
+\begin{itemize}
+\item[--] Investigated neural network discrimination technique for signal/background separation. Used advanced statistical methods to perform high-dimensional data analysis.
+\item[--] Developed software to optimize and automate techniques for setting event selection criteria that increased the expected signal sensitivity while minimizing backgrounds; applied constrained minimization using pattern search in MATLAB for numerical optimization.
+\end{itemize}
+
+\newpage
+\opening
+
+\vspace{1ex}
+\begin{itemize}
+\item[--] Led the work to establish statistical criteria to identify and remove bad datasets due to periods of poor detector performance.
+\item[--] Designed and programmed data analysis tools (MATLAB, MySQL, Excel) to estimate concentration of radioactive contaminations in samples; being used since 2010 to routinely analyze materials. Developed Monte Carlo simulations of the corresponding physical processes. 
+\item[--] Prepared results and published analysis papers in refereed scientific journals.
+\end{itemize}
+\end{position}
+
+\title{Research Assistant}
+\dates{2004 -- 2007}
+\begin{position}
+Illinois Institute of Technology, Chicago, USA\\
+Particle physics experiments at Fermilab:
+\begin{itemize}
+\item[--] Developed specialized algorithms (Fortran, C\texttt{++}) to reconstruct, observe, and measure properties of rare events from $\sim$TB datasets. Published results.
+\item[--] Applied unbinned generalized likelihood fits to extract model parameters from low-statistics samples. Used Monte Carlo technique to estimate systematic errors and confidence intervals.
+\item[--] Authored a computer program to readout low voltages (hundreds of channels) from the various crate power supplies and write them into SQL database.
+\end{itemize}
+\end{position}
+
+\section{\sc Education, Certifications}
+\textbf{Ph.D. in Physics \hfill 2007}\\
+Illinois Institute of Technology, Chicago, USA
+
+Certificates in SQL, Relational Design Theory, UML\\
+Stanford online
+
+\section{\sc Selected Refereed Publications}
+
+\begin{itemize}
+    \item R.~Agnese {\it et al.}  [SuperCDMS Collaboration],
+    ``Search for Low-Mass Weakly Interacting Massive Particles Using Voltage-Assisted Calorimetric Ionization Detection in the SuperCDMS Experiment,'' Phys.\ Rev.\ Lett.\  {\bf 112}, 041302 (2014).
+    \item R.~Agnese {\it et al.}  [CDMS Collaboration],
+  ``Silicon Detector Dark Matter Results from the Final Exposure of CDMS II,''
+  Phys.\ Rev.\ Lett.\ {\bf 111}, 251301 (2013).
+    \item Z.~Ahmed {\it et al.}  [CDMS collaboration],
+    ``Dark Matter Search Results from the CDMS II Experiment,''
+    Science {\bf 327}, 1619 (2010).
+    \item O.~Kamaev \textit{et al.} [HyperCP Collaboration],
+     ``Study of the Rare Hyperon Decay ${\boldmath
+       \Omega^\mp \to \Xi^\mp \: \pi^+\pi^-}$,'' Phys.\ Lett.\ B. \textbf{693}, 236 (2010).
+%     \item I.~Eremin, O.~Kamaev, and M.~V.~Eremin,
+%     ``Possible isotope effect on the resonance peak formation in high-$T_{c}$ cuprates,''
+%     Phys. Rev. B \textbf{69}, 094517 (2004).
+
+\end{itemize}
+
+\section{\sc Additional Information}
+Permanent Resident of Canada.
+
+\end{resume}
+
+\end{document}
